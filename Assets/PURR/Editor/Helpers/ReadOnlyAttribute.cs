@@ -1,0 +1,19 @@
+namespace PURR {
+	using UnityEditor;
+	using UnityEngine;
+
+	public class ReadOnlyAttribute : PropertyAttribute { }
+
+	///<summary>Renders a property as disabled in the inspector.</summary>
+	[CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
+	public class ReadOnlyDrawer : PropertyDrawer {
+		public override float GetPropertyHeight(SerializedProperty property, GUIContent label) =>
+			EditorGUI.GetPropertyHeight(property, label, true);
+
+		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {
+			GUI.enabled = false;
+			EditorGUI.PropertyField(position, property, label, true);
+			GUI.enabled = true;
+		}
+	}
+}

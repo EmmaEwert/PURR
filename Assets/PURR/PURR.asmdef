@@ -1,0 +1,17 @@
+{
+    "name": "PURR",
+    "references": [
+        "SerializableDictionary",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.TextMeshPro"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

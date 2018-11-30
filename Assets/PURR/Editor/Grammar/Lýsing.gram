@@ -1,0 +1,30 @@
+grammar Lysing {
+	options {
+		Axiom = "lysing" ;
+		Separator = "SEPARATOR" ;
+	}
+	terminals {
+		WHITE_SPACE -> U+0020 | U+0009 | U+000B | U+000C ;
+		SEPARATOR   -> WHITE_SPACE+;
+
+		TEXT          -> [^\[\]]+ ;
+		fragment BYTE       -> [0-9A-Fa-f]{2} ;
+		fragment COLOR_NAME -> 'aqua' | 'black' | 'blue' | 'brown' | 'cyan' | 'darkblue' | 'fuchsia' | 'green' | 'grey' | 'lightblue' | 'lime' | 'magenta' | 'maroon' | 'navy' | 'olive' | 'orange' | 'purple' | 'red' | 'silver' | 'teal' | 'white' | 'yellow' ;
+		fragment COLOR_CODE -> '#' BYTE{3} BYTE? ;
+		context commands {
+			COLOR           -> COLOR_CODE | COLOR_NAME ;
+			COLOR_RESET     -> 'color' ;
+			PAUSE           -> 'pause' ;
+		}
+	}
+	rules {
+		atom    -> TEXT^ @OnText
+		         | '['! #commands { command^ } ']'! ;
+
+		command -> COLOR       @OnColor
+		         | COLOR_RESET @OnColorReset
+		         | PAUSE       @OnPause ;
+
+		lysing  -> atom+ ;
+	}
+}
