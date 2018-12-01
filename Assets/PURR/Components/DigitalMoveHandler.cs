@@ -2,7 +2,7 @@
 	using UnityEngine;
 	using UnityEngine.EventSystems;
 
-	///<summary>Runs delegates when receiving directional input while selected.</summary>
+	///<summary>Runs delegates while receiving directional input.</summary>
 	[AddComponentMenu("# PURR/Digital Move Handler")]
 	public class DigitalMoveHandler : Component, IMoveHandler {
 		public DirectionEvent onMove;

@@ -3,18 +3,18 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.EventSystems;
 
-	///<summary>Moves by adding force to an attached rigidbody.true</summary>
-	[AddComponentMenu("# PURR/Physics/Mover")]
+	///<summary>Moves by adding impulse to an attached rigidbody.true</summary>
+	[AddComponentMenu("# PURR/Physics/Jumper")]
 	[RequireComponent(typeof(Rigidbody2D))]
-	public class PhysicsMover : Component {
+	public class PhysicsJumper : Component {
 		public float force;
 
 #pragma warning disable CS0108
 		private Rigidbody2D rigidbody => GetComponentInChildren<Rigidbody2D>();
 #pragma warning restore CS0108
 
-		public void Move(MoveDirection direction) {
-			rigidbody.AddForce(direction.float2() * force);
+		public void JumpRelative() {
+			rigidbody.AddRelativeForce(float2(0, 1) * force, ForceMode2D.Impulse);
 		}
 	}
 }
