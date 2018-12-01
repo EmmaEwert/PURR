@@ -25,17 +25,6 @@ Never better! I've dis[pause]covered television~! This is now an even better tex
 I like colours ([red]red[color] especially)~</property>
    </properties>
   </object>
-  <object id="16" name="NPC" type="NPC" gid="2254" x="1072" y="960" width="16" height="16">
-   <properties>
-    <property name="Text">Hello, my purple friend whose favourite color is red~ &lt;3! Are you okay?
-
-Never better! I've discovered television~! This is now an even better text system because you don't even have to manage page breaks yourself anymore. It splits on double newline but also just on long lines, ya know
-
-... or do you?
-
-I like colours (red especially)~</property>
-   </properties>
-  </object>
  </objectgroup>
  <layer id="9" name="Tile Layer 3" width="100" height="100">
   <data encoding="base64" compression="gzip">

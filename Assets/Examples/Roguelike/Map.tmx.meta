@@ -9,13 +9,10 @@ ScriptedImporter:
     100008: grid/Map/Object Layer 1/NPC/Renderer
     100010: grid/Map/Object Layer 1/PC/Caster
     100012: grid/Map/Object Layer 1/PC/Camera
-    100014: grid/Map/Object Layer 1/NPC
-    100016: grid/Map/Object Layer 1/NPC/Collider
     100018: grid/Map/Tile Layer 1
     100020: grid/Map/Tile Layer 2
     100022: grid/Map/Tile Layer 3
     100024: grid/Map/Object Layer 1/PC/Renderer
-    100026: grid/Map/Object Layer 1/NPC/Renderer
     100032: grid/Map/Object Layer 1/PC
     400000: grid/Map/Transform
     400002: grid/Map/Object Layer 1/Transform
@@ -24,18 +21,14 @@ ScriptedImporter:
     400008: grid/Map/Object Layer 1/NPC/Renderer/Transform
     400010: grid/Map/Object Layer 1/PC/Caster/Transform
     400012: grid/Map/Object Layer 1/PC/Camera/Transform
-    400014: grid/Map/Object Layer 1/NPC/Transform
-    400016: grid/Map/Object Layer 1/NPC/Collider/Transform
     400018: grid/Map/Tile Layer 1/Transform
     400020: grid/Map/Tile Layer 2/Transform
     400022: grid/Map/Tile Layer 3/Transform
     400024: grid/Map/Object Layer 1/PC/Renderer/Transform
-    400026: grid/Map/Object Layer 1/NPC/Renderer/Transform
     400032: grid/Map/Object Layer 1/PC/Transform
     2000002: grid/Map/Object Layer 1/PC/Camera/Camera
     5000000: grid/Map/Rigidbody2D
     6100000: grid/Map/Object Layer 1/NPC/Collider/BoxCollider2D
-    6100002: grid/Map/Object Layer 1/NPC/Collider/BoxCollider2D
     6600000: grid/Map/CompositeCollider2D
     8100000: grid/Map/Object Layer 1/PC/Camera/AudioListener
     11400000: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.Spriter
@@ -48,17 +41,12 @@ ScriptedImporter:
     11400014: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridBumper
     11400016: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridMoveHandler
     11400018: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridPhysicsCaster
-    11400020: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.Spriter
-    11400022: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.GridBumpee
-    11400024: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.Teletyper
     21200000: grid/Map/Object Layer 1/NPC/Renderer/SpriteRenderer
-    21200002: grid/Map/Object Layer 1/NPC/Renderer/SpriteRenderer
     21200006: grid/Map/Object Layer 1/PC/Renderer/SpriteRenderer
     100100000: grid
     2113883504053787368: grid/Map/Tile Layer 1/TilemapCollider2D
     2113883504053787370: grid/Map/Tile Layer 2/TilemapCollider2D
     2113883504053787372: grid/Map/Tile Layer 3/TilemapCollider2D
-    2186277476908879412: ImportLogs
     2569400265252428798: grid/Map/Grid
     3664157343022684182: grid/Map/Tile Layer 1/TilemapRenderer
     3664157343022684184: grid/Map/Tile Layer 2/TilemapRenderer
