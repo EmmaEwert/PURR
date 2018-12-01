@@ -6,18 +6,22 @@ ScriptedImporter:
     100002: grid/Map/Tile Layer 1
     100004: grid/Map/Object Layer 1
     100006: grid/Map/Object Layer 1/Player/Renderer
+    100008: grid/Map/Object Layer 1/Player/Collider
     100010: grid/Map/Object Layer 1/Player
     400000: grid/Map/Transform
     400002: grid/Map/Tile Layer 1/Transform
     400004: grid/Map/Object Layer 1/Transform
     400006: grid/Map/Object Layer 1/Player/Renderer/Transform
+    400008: grid/Map/Object Layer 1/Player/Collider/Transform
     400010: grid/Map/Object Layer 1/Player/Transform
     5000000: grid/Map/Rigidbody2D
+    5000002: grid/Map/Object Layer 1/Player/Rigidbody2D
+    5800000: grid/Map/Object Layer 1/Player/Collider/CircleCollider2D
     6600000: grid/Map/CompositeCollider2D
     11400000: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Spriter
     11400002: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Selectee
-    11400004: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.GridMover
-    11400006: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.GridMoveHandler
+    11400006: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.PhysicsMover
+    11400008: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.DigitalMoveHandler
     21200000: grid/Map/Object Layer 1/Player/Renderer/SpriteRenderer
     100100000: grid
     2113883504053787368: grid/Map/Tile Layer 1/TilemapCollider2D
