@@ -6,11 +6,11 @@ namespace PURR {
 		public Event @event;
 		public UnityEvent onEvent;
 
-		private void OnEnable() {
+		private void OnSceneLoaded() {
 			@event.listeners.Add(onEvent);
 		}
 
-		private async void OnDisable() {
+		private async void OnDestroy() {
 			await NextUpdate();
 			@event.listeners.Remove(onEvent);
 		}

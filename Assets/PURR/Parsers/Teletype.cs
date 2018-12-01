@@ -66,7 +66,7 @@
 				text.pageToDisplay = 1;
 				text.maxVisibleCharacters = 0;
 				text.SetText(lýsing.text);
-				text.SetAllDirty();
+				//text.SetAllDirty();
 				await NextUpdate();
 				transform.root.gameObject.SetActive(true);
 				do {

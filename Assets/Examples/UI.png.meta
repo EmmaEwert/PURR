@@ -5,6 +5,8 @@ TextureImporter:
     21300000: Textbox, blue
     21300002: Textbox, parchment
     21300004: Arrow, Down, Orange
+    21300006: Arrow Down, Blue, Sharp
+    21300008: Yellow Text Box
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -153,6 +155,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 04272d85bc8c56040a51c5fcd07120a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow Down, Blue, Sharp
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04579dbde34e56c488bef471b9414f55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Text Box
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 5, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c882bb815b02348a1ba2eab5968bbd
       vertices: []
       indices: 
       edges: []
