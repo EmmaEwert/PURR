@@ -1,12 +1,13 @@
 ﻿namespace PURR {
+	using static UnityAsync.Await;
 	using static Unity.Mathematics.math;
-	using System.Linq;
+	using System;
+	using System.Collections.Generic;
 	using System.Threading.Tasks;
 	using TMPro;
+	using UnityAsync;
 	using UnityEngine;
 	using UnityEngine.EventSystems;
-	using System.Collections.Generic;
-	using System;
 
 	///<summary>Character revealer using TextMeshPro.</summary>
 	[RequireComponent(typeof(AudioSource))]
@@ -49,7 +50,7 @@
 			submit = false;
 			arrow.SetActive(true);
 			while (!submit) {
-				await 16;
+				await NextUpdate();
 			}
 			arrow.SetActive(false);
 			submit = false;
@@ -66,7 +67,7 @@
 				text.maxVisibleCharacters = 0;
 				text.SetText(lýsing.text);
 				text.SetAllDirty();
-				await 16;
+				await NextUpdate();
 				transform.root.gameObject.SetActive(true);
 				do {
 					int firstCharacterIndexOfNextPage;
@@ -87,9 +88,9 @@
 						audioSource.timeSamples = mad((c - 'A'), samplesPerLetter, sampleOffset);
 						audioSource.Play();
 					}
-					await 16;
+					await NextUpdate();
 					if (timings.TryGetValue(c, out var timing)) {
-						await (16 * timing);
+						await new WaitForFrames(timing);
 					}
 				} while (text.maxVisibleCharacters < text.textInfo.characterCount);
 				await WaitForSubmit();

@@ -1,5 +1,6 @@
 namespace PURR {
 	using static Unity.Mathematics.math;
+	using static UnityAsync.Await;
 	using System.Threading.Tasks;
 	using Unity.Mathematics;
 	using UnityEngine;
@@ -18,7 +19,7 @@ namespace PURR {
 		public async Task Step(MoveDirection direction) {
 			if (Paused) { return; }
 			Paused = true;
-			for (; step < 1; await 16) {
+			for (; step < 1; await NextUpdate()) {
 				if (this == null) { return; }
 				transform.localPosition =
 					float3(position + lerp(0, direction.float2(), step), transform.localPosition.z);
