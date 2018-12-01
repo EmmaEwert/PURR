@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 4276240f391d93f4c84f277a8c3f2e9f
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: grid/Map
+    100002: grid/Map/Tile Layer 1
+    100004: grid/Map/Object Layer 1
+    100006: grid/Map/Object Layer 1/Player/Renderer
+    100010: grid/Map/Object Layer 1/Player
+    400000: grid/Map/Transform
+    400002: grid/Map/Tile Layer 1/Transform
+    400004: grid/Map/Object Layer 1/Transform
+    400006: grid/Map/Object Layer 1/Player/Renderer/Transform
+    400010: grid/Map/Object Layer 1/Player/Transform
+    5000000: grid/Map/Rigidbody2D
+    6600000: grid/Map/CompositeCollider2D
+    11400000: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Spriter
+    11400002: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Selectee
+    11400004: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.GridMover
+    11400006: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.GridMoveHandler
+    21200000: grid/Map/Object Layer 1/Player/Renderer/SpriteRenderer
+    100100000: grid
+    2113883504053787368: grid/Map/Tile Layer 1/TilemapCollider2D
+    2569400265252428796: grid/Map/Grid
+    3664157343022684176: grid/Map/Tile Layer 1/TilemapRenderer
+    8195094279510102542: grid/Map/Tile Layer 1/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 8c116db12ecc66f458b5ac268cf3366c, type: 3}

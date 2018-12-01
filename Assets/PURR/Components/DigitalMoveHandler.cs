@@ -3,8 +3,8 @@
 	using UnityEngine.EventSystems;
 
 	///<summary>Runs delegates when receiving directional input while selected.</summary>
-	[AddComponentMenu("# PURR/Grid/Inputs/Move Handler")]
-	public class GridMoveHandler : Component, IMoveHandler {
+	[AddComponentMenu("# PURR/Digital Move Handler")]
+	public class DigitalMoveHandler : Component, IMoveHandler {
 		public DirectionEvent onMove;
 
 		public void OnMove(AxisEventData data) {

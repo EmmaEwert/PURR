@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d334fdd07ccf9f64e977c54db0e2dc4c
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: tileset
+    11400002: 0
+    11400004: 1
+    11400006: 2
+    11400008: 3
+    11400010: 4
+    11400012: 5
+    11400014: 6
+    11400016: 7
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b8dc813b6bd06e2498df7464a37ce771, type: 3}
+  tileset: {instanceID: 0}
