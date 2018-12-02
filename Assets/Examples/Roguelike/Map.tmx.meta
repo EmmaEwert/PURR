@@ -39,8 +39,8 @@ ScriptedImporter:
     11400010: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridMover
     11400012: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridCollider
     11400014: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridBumper
-    11400016: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridMoveHandler
     11400018: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridPhysicsCaster
+    11400020: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.DigitalMoveHandler
     21200000: grid/Map/Object Layer 1/NPC/Renderer/SpriteRenderer
     21200006: grid/Map/Object Layer 1/PC/Renderer/SpriteRenderer
     100100000: grid

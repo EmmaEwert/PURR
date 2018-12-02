@@ -41,6 +41,15 @@ PrefabInstance:
       value: Blue Block
       objectReference: {fileID: 0}
     - target: {fileID: 4679082970883219077}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4679082970883219077}
+      propertyPath: m_Name
+      value: Blue Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679082970883219077}
       propertyPath: m_Name
       value: Blue Block
       objectReference: {fileID: 0}
@@ -97,6 +106,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Block
       objectReference: {fileID: 0}
+    - target: {fileID: 6062558583542189445, guid: 268d204aa99819d4c8f88c153eb05840,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268d204aa99819d4c8f88c153eb05840, type: 3}
 --- !u!1 &4679082970883219077 stripped

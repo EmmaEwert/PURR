@@ -40,6 +40,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow Block
       objectReference: {fileID: 0}
+    - target: {fileID: 1258856899663159631}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 1258856899663159628}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -84,11 +89,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1258856899663159631}
+      propertyPath: m_Name
+      value: Yellow Block
+      objectReference: {fileID: 0}
     - target: {fileID: 6062558583542189445, guid: 268d204aa99819d4c8f88c153eb05840,
         type: 3}
       propertyPath: m_Name
       value: Yellow Block
       objectReference: {fileID: 0}
+    - target: {fileID: 6062558583542189445, guid: 268d204aa99819d4c8f88c153eb05840,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268d204aa99819d4c8f88c153eb05840, type: 3}
 --- !u!1 &1258856899663159631 stripped

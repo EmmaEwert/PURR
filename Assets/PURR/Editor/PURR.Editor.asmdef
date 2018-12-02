@@ -1,15 +1,14 @@
 {
-    "name": "PURR",
+    "name": "PURR.Editor",
     "references": [
-        "Lýsing",
-        "SerializableDictionary",
+        "PURR",
         "Unity.Burst",
-        "Unity.Mathematics",
-        "Unity.TextMeshPro",
-        "UnityAsync"
+        "Unity.Mathematics"
     ],
     "optionalUnityReferences": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

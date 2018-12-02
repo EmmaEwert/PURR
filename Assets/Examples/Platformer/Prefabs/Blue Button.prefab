@@ -11,6 +11,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5540903659373477293}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 67bdc5ba1b503644eba2cd2863c6154c,
+        type: 2}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Invoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2349258263861242423}
       propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -36,8 +74,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2349258263861242423}
-      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2498216911617591637}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Type
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349258263861242423}
+      propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2349258263861242423}
       propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
@@ -112,11 +166,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5540903659373477293}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 5540903659373477293}
+      propertyPath: m_Name
+      value: Blue Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540903659373477293}
+      propertyPath: m_Name
+      value: Blue Button
+      objectReference: {fileID: 0}
     - target: {fileID: 5927548487718211637, guid: da017feb68471584ea034775734fc331,
         type: 3}
       propertyPath: m_Name
       value: Blue Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5927548487718211637, guid: da017feb68471584ea034775734fc331,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 4484989866666264495, guid: da017feb68471584ea034775734fc331,
         type: 3}
       propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.size
@@ -126,11 +199,12 @@ PrefabInstance:
         type: 3}
       propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2498216911617591637}
+      objectReference: {fileID: 11400000, guid: 67bdc5ba1b503644eba2cd2863c6154c,
+        type: 2}
     - target: {fileID: 4484989866666264495, guid: da017feb68471584ea034775734fc331,
         type: 3}
       propertyPath: onTouched.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Type
+      value: Invoke
       objectReference: {fileID: 0}
     - target: {fileID: 4484989866666264495, guid: da017feb68471584ea034775734fc331,
         type: 3}

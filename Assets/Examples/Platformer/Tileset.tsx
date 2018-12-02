@@ -13,6 +13,9 @@
  <tile id="17" type="Blocker"/>
  <tile id="20" type="Blocker"/>
  <tile id="21" type="Blocker"/>
+ <tile id="28" type="Blocker"/>
+ <tile id="29" type="Blocker"/>
+ <tile id="30" type="Blocker"/>
  <tile id="31" type="Blocker"/>
  <tile id="32" type="Blocker"/>
  <tile id="45" type="Blocker"/>

@@ -8,9 +8,8 @@ namespace PURR {
 		public List<UnityEvent> listeners = new List<UnityEvent>();
 
 		public void Invoke() {
-			var count = listeners.Count;
-			for (var i = 0; i < count; ++i) {
-				listeners[i].Invoke();
+			foreach (var listener in listeners) {
+				listener.Invoke();
 			}
 		}
 	}

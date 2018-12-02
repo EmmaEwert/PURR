@@ -15,7 +15,7 @@ namespace PURR.Grammar {
 				OutputPath = $"Assets{DirectorySeparatorChar}Plugins{DirectorySeparatorChar}Generated",
 				Namespace = "PURR.Generated",
 				CodeAccess = Modifier.Public,
-				Mode = Mode.Assembly,
+				Mode = Mode.Source,
 			};
 			task.AddInputFile(assetPath);
 			var report = task.Execute();

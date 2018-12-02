@@ -94,8 +94,8 @@
 					}
 				} while (text.maxVisibleCharacters < text.textInfo.characterCount);
 				await WaitForSubmit();
-				transform.root.gameObject.SetActive(false);
 			}
+			transform.root.gameObject.SetActive(false);
 		}
 	}
 }
