@@ -16,6 +16,7 @@ namespace PURR {
 		}
 
 		public static float2 float2(this MoveDirection direction) => math.float2(direction.int2());
+		public static float3 float3(this MoveDirection direction) => math.float3(math.float2(direction.int2()), 0);
 
 		public static MoveDirection Opposite(this MoveDirection direction) {
 			switch (direction) {

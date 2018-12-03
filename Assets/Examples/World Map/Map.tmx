@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="56" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="11">
+ <tileset firstgid="1" source="mapPack_tilesheet_2X.tsx"/>
+ <layer id="12" name="Background" width="56" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3DAQkAAAwEoeuf7UMtx0DBVVNVVVVVVVVV1acPPf6DtwAjAAA=
+  </data>
+ </layer>
+ <layer id="13" name="Ground" width="56" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2VW07DMBBFh3fhEyhQ+CRIhG9AAnbAoxsohQ0AO0DdOmPVlibTdOyEuJTqHulIsZ1YuZp4QgQAAAAAi0f2yfA58vw2uyPsqXk57hn3d03I9c6+Go4j+xyzJ8KBmpfjgXF/14zIzpWa7469Z/fU+7r5kr3yY51v1z/30EmaWVLzvVH8G3VcUjVP3bpb03XNRcj3wn6yQ6rP59a/Wuw/75wtOt9YjWVm56Tl/qnnMhcuj8sxEWN55tbY9Ygbxv6xfKeUt49+U7U2IW+o2T57EPHQ2D+WT7uIesq6HZGdbZO9pdn/HPm5M6r2ydB3Qh8q/Xyp1nPxQdM+klI3Wbu6701my/3eTWmaL/znZE1CXXL9235D03z/hdRzF+xT+976F6TWLdVlq6/O5/pjwd6wW7R6+eT7XVPzjMuW75ymtSq8F3PW5T3yulDz+nkAAAAAAAAAAN3zA5ZeF2sAIwAA
+  </data>
+ </layer>
+ <layer id="14" name="Path" width="56" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2W2QqDQAxF8/v1wb7XbxBb2ueiQv/LQg3UYIgZZ6n0HhiGWcwsl9yRCAAAAAD/Tvsu56/SzfXDGeck4lTGPG/8UGqjHTtOaHwvL/rcYyP6Bwq7X+t8rNvojBubVPrVSn9q+F5vtK7nVuS+L7TMx1GZl5pY61lxSumnrce6VkpbcjXWec7f97TUNbWXWj6n1VvjlEbzuUaMcy11amlf3qbG63ux3stcyP1JfdgHe1p/v6RPavlZCq8ee8dz4z0f68U63cW45aO5Cc2no+Qj6+H9f5F5yeVXfRQAAAAAAAAAwLGYAEI4qz4AIwAA
+  </data>
+ </layer>
+ <layer id="15" name="Levels" width="56" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2UOw6DMAyGcxoYYOhGF4b2RB16AYZygb5mpD6uWaLGquUSEqpScPV/khU7Nkp+mdgYAAAAAPRROqvYai1nvka4hr2n5mCemkNsI8/cifge+d0nUL9yF+fm1T/KVyyvkYb5/D8lji5e//JSX4J6R3rIL0Ws9f2VzIjNRHcZA9+70v7mfGTmfb6FkPXXQP2tJ7caePZQMrfWraUR9bVbF+NcZzTqcIk5i7jprJo3S8+qnaK1k/P/RZMl8exzjX1vU0ufC+bL+WhzXfouIp6zRpovUofVlrj9tCMfM3OnJjQHrT7qrwY9AAAAAAAAAAB08wB4I0GxACMAAA==
+  </data>
+ </layer>
+ <objectgroup id="10" name="Objects">
+  <object id="1" name="Zoink" type="Map Player" gid="152" x="1280" y="1536" width="128" height="128"/>
+ </objectgroup>
+ <layer id="16" name="Trees and Stones" width="56" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3TMQ0AMAwEsYeU8ieXIQy6pFJtBLdcAgAAvOJsBwBXKvNvbYcAAAAAwKcaOXa7SwAjAAA=
+  </data>
+ </layer>
+</map>

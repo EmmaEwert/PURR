@@ -52,7 +52,7 @@ namespace PURR.Tiled {
 						.Select(e => (
 							name: (string)e.Attribute("name"),
 							value: (string)e.Attribute("value") ?? e.Value)
-						).ToArray()
+						).ToArray() ?? new (string, string)[0]
 				)).ToArray();
 
 			// Texture

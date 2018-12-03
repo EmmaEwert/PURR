@@ -10,6 +10,10 @@ namespace PURR {
 	[AddComponentMenu("# PURR/Grid/Actors/Mover")]
 	public class GridMover : Component {
 		public float tilesPerSecond = 2;
+		public int2 Position {
+			get => position;
+			set => transform.position = float3(position = value, transform.position.z);
+		}
 
 		private int2 position;
 		private float step;
@@ -22,7 +26,7 @@ namespace PURR {
 			for (; step < 1; await NextUpdate()) {
 				if (this == null) { return; }
 				transform.localPosition =
-					float3(position + lerp(0, direction.float2(), step), transform.localPosition.z);
+					float3(position, transform.localPosition.z) + lerp(0, direction.float3(), step);
 				step += tilesPerSecond * Time.deltaTime;
 			}
 			Paused = false;
