@@ -81,10 +81,11 @@ namespace PURR.Tiled {
 					);
 
 					// Tilemap
-					var layerTiles = new Tile[gids.Length];
+					var layerTiles = new PURR.Tile[gids.Length];
 					for (var i = 0; i < layerTiles.Length; ++i) {
 						layerTiles[i] = tiles[gids[i] & 0x1ffffff]; // 3 MSB for flipping
 					}
+
 					var size = new Vector3Int(layerWidth, layerHeight, 1);
 					var bounds = new BoundsInt(
 						Vector3Int.zero,

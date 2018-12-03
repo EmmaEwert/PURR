@@ -1,18 +1,20 @@
 namespace PURR {
 	using RotaryHeart.Lib.SerializableDictionary;
 	using System;
+	using UnityEngine;
 
 	///<summary>Representation of a single Tiled object, with properties</summary>
 	[Serializable]
 	public class Object {
 		public Tile tile;
-
-		private Properties properties = new Properties();
+		[SerializeField] public Properties properties = new Properties();
 
 		public string this[string key] {
 			get {
-				if (properties.TryGetValue(key, out var value)) {
-					return value;
+				if (properties.TryGetValue(key, out var objectValue)) {
+					return objectValue;
+				} else if (tile.properties.TryGetValue(key, out var tileValue)) {
+					return tileValue;
 				}
 				return null;
 			}

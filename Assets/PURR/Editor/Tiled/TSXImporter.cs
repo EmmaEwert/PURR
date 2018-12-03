@@ -45,7 +45,14 @@ namespace PURR.Tiled {
 				.Elements("tile")
 				.Select(tile => (
 					id:   (int   )tile.Attribute("id"),
-					type: (string)tile.Attribute("type")
+					type: (string)tile.Attribute("type"),
+					properties: tile
+						.Element("properties")?
+						.Elements("property")
+						.Select(e => (
+							name: (string)e.Attribute("name"),
+							value: (string)e.Attribute("value") ?? e.Value)
+						).ToArray()
 				)).ToArray();
 
 			// Texture
@@ -96,6 +103,7 @@ namespace PURR.Tiled {
 			for (var i = 0; i < complexTiles.Length; ++i) {
 				var tileid = complexTiles[i].id;
 				var tiletype = complexTiles[i].type;
+				var tileproperties = complexTiles[i].properties;
 				if (string.IsNullOrEmpty(tiletype)) { continue; }
 				var prefab = PrefabLoader.Load<PURR.Component>(tiletype);
 				if (!prefab) {
@@ -105,6 +113,10 @@ namespace PURR.Tiled {
 						+ "\" with at least one PURR.Component could be found, skipping."
 					);
 					continue;
+				}
+				tileset.tiles[tileid].type = tiletype;
+				foreach (var property in tileproperties) {
+					tileset.tiles[tileid][property.name] = property.value;
 				}
 				foreach (var component in prefab.GetComponents<PURR.Component>()) {
 					component.OnImportTile(tileset.tiles[tileid]);
