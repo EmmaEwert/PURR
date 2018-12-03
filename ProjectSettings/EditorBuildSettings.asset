@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Examples/Platformer/Platformer.unity
-    guid: 3c846126de7e0754e9aceb6bee35b4bd
+    path: Assets/Examples/World Map/World Map.unity
+    guid: 17acd48c46418d243adf764e05c226e8
   m_configObjects: {}

@@ -226,6 +226,7 @@ ScriptedImporter:
     100442: grid/Map/Path/Map Path 43,24
     100444: grid/Map/Path/Map Path 44,24
     100446: grid/Map/Path/Map Path 44,24/Caster
+    100448: grid/Map/Objects/Zoink/Main Camera
     400000: grid/Map/Transform
     400002: grid/Map/Background/Transform
     400004: grid/Map/Ground/Transform
@@ -450,6 +451,8 @@ ScriptedImporter:
     400442: grid/Map/Path/Map Path 43,24/Transform
     400444: grid/Map/Path/Map Path 44,24/Transform
     400446: grid/Map/Path/Map Path 44,24/Caster/Transform
+    400448: grid/Map/Objects/Zoink/Main Camera/Transform
+    2000000: grid/Map/Objects/Zoink/Main Camera/Camera
     5000000: grid/Map/Rigidbody2D
     6100000: grid/Map/Path/Map Path 11,28/BoxCollider2D
     6100002: grid/Map/Path/Map Path 12,16/BoxCollider2D
@@ -559,6 +562,7 @@ ScriptedImporter:
     6100210: grid/Map/Path/Map Path 43,24/BoxCollider2D
     6100212: grid/Map/Path/Map Path 44,24/BoxCollider2D
     6600000: grid/Map/CompositeCollider2D
+    8100000: grid/Map/Objects/Zoink/Main Camera/AudioListener
     11400000: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Spriter
     11400002: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Selectee
     11400006: grid/Map/Objects/Zoink/MonoBehaviour-PURR.DigitalMoveHandler
