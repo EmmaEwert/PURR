@@ -7,8 +7,8 @@ ScriptedImporter:
     100004: grid/Map/Object Layer 1/NPC
     100006: grid/Map/Object Layer 1/NPC/Collider
     100008: grid/Map/Object Layer 1/NPC/Renderer
-    100010: grid/Map/Object Layer 1/PC/Caster
-    100012: grid/Map/Object Layer 1/PC/Camera
+    100010: grid/Map/Object Layer 1/PC/Camera
+    100012: grid/Map/Object Layer 1/PC/Caster
     100018: grid/Map/Tile Layer 1
     100020: grid/Map/Tile Layer 2
     100022: grid/Map/Tile Layer 3
@@ -19,28 +19,28 @@ ScriptedImporter:
     400004: grid/Map/Object Layer 1/NPC/Transform
     400006: grid/Map/Object Layer 1/NPC/Collider/Transform
     400008: grid/Map/Object Layer 1/NPC/Renderer/Transform
-    400010: grid/Map/Object Layer 1/PC/Caster/Transform
-    400012: grid/Map/Object Layer 1/PC/Camera/Transform
+    400010: grid/Map/Object Layer 1/PC/Camera/Transform
+    400012: grid/Map/Object Layer 1/PC/Caster/Transform
     400018: grid/Map/Tile Layer 1/Transform
     400020: grid/Map/Tile Layer 2/Transform
     400022: grid/Map/Tile Layer 3/Transform
     400024: grid/Map/Object Layer 1/PC/Renderer/Transform
     400032: grid/Map/Object Layer 1/PC/Transform
-    2000002: grid/Map/Object Layer 1/PC/Camera/Camera
+    2000000: grid/Map/Object Layer 1/PC/Camera/Camera
     5000000: grid/Map/Rigidbody2D
     6100000: grid/Map/Object Layer 1/NPC/Collider/BoxCollider2D
     6600000: grid/Map/CompositeCollider2D
     8100000: grid/Map/Object Layer 1/PC/Camera/AudioListener
     11400000: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.Spriter
     11400002: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.GridBumpee
-    11400004: grid/Map/Object Layer 1/NPC/MonoBehaviour-PURR.Teletyper
+    11400004: grid/Map/Object Layer 1/NPC/MonoBehaviour-
     11400006: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.Selectee
     11400008: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.Spriter
     11400010: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridMover
-    11400012: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridCollider
-    11400014: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridBumper
-    11400018: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridPhysicsCaster
-    11400020: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.DigitalMoveHandler
+    11400012: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridPhysicsCaster
+    11400014: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridCollider
+    11400016: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.GridBumper
+    11400018: grid/Map/Object Layer 1/PC/MonoBehaviour-PURR.DigitalMoveHandler
     21200000: grid/Map/Object Layer 1/NPC/Renderer/SpriteRenderer
     21200006: grid/Map/Object Layer 1/PC/Renderer/SpriteRenderer
     100100000: grid

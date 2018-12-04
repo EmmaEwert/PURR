@@ -6,19 +6,19 @@ ScriptedImporter:
     100002: grid/Map/Tile Layer 1
     100004: grid/Map/Object Layer 1
     100006: grid/Map/Object Layer 1/32
-    100008: grid/Map/Object Layer 1/32/Renderer
+    100008: grid/Map/Object Layer 1/21/Renderer
     100010: grid/Map/Object Layer 1/Player
-    100012: grid/Map/Object Layer 1/21/Renderer
-    100014: grid/Map/Object Layer 1/34/Renderer
-    100020: grid/Map/Object Layer 1/25/Renderer
-    100022: grid/Map/Object Layer 1/26/Renderer
-    100024: grid/Map/Object Layer 1/27/Renderer
-    100026: grid/Map/Object Layer 1/28/Renderer
-    100028: grid/Map/Object Layer 1/29/Renderer
-    100030: grid/Map/Object Layer 1/30/Renderer
-    100032: grid/Map/Object Layer 1/Player/Collider
-    100034: grid/Map/Object Layer 1/Player/Renderer
-    100036: grid/Map/Object Layer 1/Blue Button/Renderer
+    100012: grid/Map/Object Layer 1/25/Renderer
+    100014: grid/Map/Object Layer 1/26/Renderer
+    100020: grid/Map/Object Layer 1/27/Renderer
+    100022: grid/Map/Object Layer 1/28/Renderer
+    100024: grid/Map/Object Layer 1/29/Renderer
+    100026: grid/Map/Object Layer 1/30/Renderer
+    100028: grid/Map/Object Layer 1/32/Renderer
+    100030: grid/Map/Object Layer 1/34/Renderer
+    100032: grid/Map/Object Layer 1/Blue Button/Renderer
+    100034: grid/Map/Object Layer 1/Player/Collider
+    100036: grid/Map/Object Layer 1/Player/Renderer
     100042: grid/Map/Object Layer 1/34
     100046: grid/Map/Object Layer 1/Blue Button
     100074: grid/Map/Object Layer 1/21
@@ -32,19 +32,19 @@ ScriptedImporter:
     400002: grid/Map/Tile Layer 1/Transform
     400004: grid/Map/Object Layer 1/Transform
     400006: grid/Map/Object Layer 1/32/Transform
-    400008: grid/Map/Object Layer 1/32/Renderer/Transform
+    400008: grid/Map/Object Layer 1/21/Renderer/Transform
     400010: grid/Map/Object Layer 1/Player/Transform
-    400012: grid/Map/Object Layer 1/21/Renderer/Transform
-    400014: grid/Map/Object Layer 1/34/Renderer/Transform
-    400020: grid/Map/Object Layer 1/25/Renderer/Transform
-    400022: grid/Map/Object Layer 1/26/Renderer/Transform
-    400024: grid/Map/Object Layer 1/27/Renderer/Transform
-    400026: grid/Map/Object Layer 1/28/Renderer/Transform
-    400028: grid/Map/Object Layer 1/29/Renderer/Transform
-    400030: grid/Map/Object Layer 1/30/Renderer/Transform
-    400032: grid/Map/Object Layer 1/Player/Collider/Transform
-    400034: grid/Map/Object Layer 1/Player/Renderer/Transform
-    400036: grid/Map/Object Layer 1/Blue Button/Renderer/Transform
+    400012: grid/Map/Object Layer 1/25/Renderer/Transform
+    400014: grid/Map/Object Layer 1/26/Renderer/Transform
+    400020: grid/Map/Object Layer 1/27/Renderer/Transform
+    400022: grid/Map/Object Layer 1/28/Renderer/Transform
+    400024: grid/Map/Object Layer 1/29/Renderer/Transform
+    400026: grid/Map/Object Layer 1/30/Renderer/Transform
+    400028: grid/Map/Object Layer 1/32/Renderer/Transform
+    400030: grid/Map/Object Layer 1/34/Renderer/Transform
+    400032: grid/Map/Object Layer 1/Blue Button/Renderer/Transform
+    400034: grid/Map/Object Layer 1/Player/Collider/Transform
+    400036: grid/Map/Object Layer 1/Player/Renderer/Transform
     400042: grid/Map/Object Layer 1/34/Transform
     400046: grid/Map/Object Layer 1/Blue Button/Transform
     400074: grid/Map/Object Layer 1/21/Transform
@@ -56,58 +56,58 @@ ScriptedImporter:
     400110: grid/Map/Object Layer 1/30/Transform
     5000000: grid/Map/Rigidbody2D
     5000002: grid/Map/Object Layer 1/Player/Rigidbody2D
-    5800000: grid/Map/Object Layer 1/Player/Collider/CircleCollider2D
+    5800000: grid/Map/Object Layer 1/34/CircleCollider2D
     5800002: grid/Map/Object Layer 1/Blue Button/CircleCollider2D
-    5800004: grid/Map/Object Layer 1/34/CircleCollider2D
-    6100000: grid/Map/Object Layer 1/32/BoxCollider2D
-    6100004: grid/Map/Object Layer 1/21/BoxCollider2D
-    6100012: grid/Map/Object Layer 1/25/BoxCollider2D
-    6100014: grid/Map/Object Layer 1/26/BoxCollider2D
-    6100016: grid/Map/Object Layer 1/27/BoxCollider2D
-    6100018: grid/Map/Object Layer 1/28/BoxCollider2D
-    6100020: grid/Map/Object Layer 1/29/BoxCollider2D
-    6100022: grid/Map/Object Layer 1/30/BoxCollider2D
+    5800004: grid/Map/Object Layer 1/Player/Collider/CircleCollider2D
+    6100000: grid/Map/Object Layer 1/21/BoxCollider2D
+    6100002: grid/Map/Object Layer 1/25/BoxCollider2D
+    6100004: grid/Map/Object Layer 1/26/BoxCollider2D
+    6100006: grid/Map/Object Layer 1/27/BoxCollider2D
+    6100008: grid/Map/Object Layer 1/28/BoxCollider2D
+    6100010: grid/Map/Object Layer 1/29/BoxCollider2D
+    6100012: grid/Map/Object Layer 1/30/BoxCollider2D
+    6100014: grid/Map/Object Layer 1/32/BoxCollider2D
     6600000: grid/Map/CompositeCollider2D
     7000000: grid/Map/Object Layer 1/Player/Collider/CapsuleCollider2D
-    11400000: grid/Map/Object Layer 1/32/MonoBehaviour-PURR.Spriter
-    11400002: grid/Map/Object Layer 1/32/MonoBehaviour-PURR.EventListener
-    11400004: grid/Map/Object Layer 1/25/MonoBehaviour-PURR.EventListener
-    11400006: grid/Map/Object Layer 1/26/MonoBehaviour-PURR.EventListener
-    11400008: grid/Map/Object Layer 1/21/MonoBehaviour-PURR.Spriter
-    11400010: grid/Map/Object Layer 1/21/MonoBehaviour-PURR.EventListener
-    11400012: grid/Map/Object Layer 1/25/MonoBehaviour-PURR.Spriter
-    11400014: grid/Map/Object Layer 1/26/MonoBehaviour-PURR.Spriter
-    11400016: grid/Map/Object Layer 1/27/MonoBehaviour-PURR.Spriter
-    11400018: grid/Map/Object Layer 1/28/MonoBehaviour-PURR.Spriter
+    11400000: grid/Map/Object Layer 1/21/MonoBehaviour-PURR.Spriter
+    11400002: grid/Map/Object Layer 1/21/MonoBehaviour-PURR.EventListener
+    11400004: grid/Map/Object Layer 1/25/MonoBehaviour-PURR.Spriter
+    11400006: grid/Map/Object Layer 1/25/MonoBehaviour-PURR.EventListener
+    11400008: grid/Map/Object Layer 1/26/MonoBehaviour-PURR.Spriter
+    11400010: grid/Map/Object Layer 1/26/MonoBehaviour-PURR.EventListener
+    11400012: grid/Map/Object Layer 1/27/MonoBehaviour-PURR.Spriter
+    11400014: grid/Map/Object Layer 1/27/MonoBehaviour-PURR.EventListener
+    11400016: grid/Map/Object Layer 1/28/MonoBehaviour-PURR.Spriter
+    11400018: grid/Map/Object Layer 1/28/MonoBehaviour-PURR.EventListener
     11400020: grid/Map/Object Layer 1/29/MonoBehaviour-PURR.Spriter
-    11400022: grid/Map/Object Layer 1/30/MonoBehaviour-PURR.Spriter
-    11400024: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Spriter
-    11400026: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Selectee
-    11400028: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.DigitalMoveHandler
-    11400030: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.SubmitHandler
-    11400032: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.PhysicsMover
-    11400034: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.PhysicsJumper
-    11400036: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-PURR.Spriter
-    11400038: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-PURR.PhysicsTouchee
-    11400040: grid/Map/Object Layer 1/27/MonoBehaviour-PURR.EventListener
-    11400042: grid/Map/Object Layer 1/28/MonoBehaviour-PURR.EventListener
-    11400044: grid/Map/Object Layer 1/29/MonoBehaviour-PURR.EventListener
-    11400046: grid/Map/Object Layer 1/30/MonoBehaviour-PURR.EventListener
-    11400048: grid/Map/Object Layer 1/34/MonoBehaviour-PURR.Spriter
-    11400050: grid/Map/Object Layer 1/34/MonoBehaviour-PURR.PhysicsTouchee
-    11400052: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-PURR.Teletyper
-    11400054: grid/Map/Object Layer 1/34/MonoBehaviour-PURR.Teletyper
-    21200000: grid/Map/Object Layer 1/32/Renderer/SpriteRenderer
-    21200002: grid/Map/Object Layer 1/34/Renderer/SpriteRenderer
-    21200004: grid/Map/Object Layer 1/21/Renderer/SpriteRenderer
-    21200012: grid/Map/Object Layer 1/25/Renderer/SpriteRenderer
-    21200014: grid/Map/Object Layer 1/26/Renderer/SpriteRenderer
-    21200016: grid/Map/Object Layer 1/27/Renderer/SpriteRenderer
-    21200020: grid/Map/Object Layer 1/28/Renderer/SpriteRenderer
-    21200022: grid/Map/Object Layer 1/29/Renderer/SpriteRenderer
-    21200024: grid/Map/Object Layer 1/30/Renderer/SpriteRenderer
-    21200026: grid/Map/Object Layer 1/Player/Renderer/SpriteRenderer
-    21200028: grid/Map/Object Layer 1/Blue Button/Renderer/SpriteRenderer
+    11400022: grid/Map/Object Layer 1/29/MonoBehaviour-PURR.EventListener
+    11400024: grid/Map/Object Layer 1/30/MonoBehaviour-PURR.Spriter
+    11400026: grid/Map/Object Layer 1/30/MonoBehaviour-PURR.EventListener
+    11400028: grid/Map/Object Layer 1/32/MonoBehaviour-PURR.Spriter
+    11400030: grid/Map/Object Layer 1/32/MonoBehaviour-PURR.EventListener
+    11400032: grid/Map/Object Layer 1/34/MonoBehaviour-PURR.Spriter
+    11400034: grid/Map/Object Layer 1/34/MonoBehaviour-PURR.PhysicsTouchee
+    11400036: grid/Map/Object Layer 1/34/MonoBehaviour-
+    11400038: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-PURR.Spriter
+    11400040: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-PURR.PhysicsTouchee
+    11400042: grid/Map/Object Layer 1/Blue Button/MonoBehaviour-
+    11400044: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Spriter
+    11400046: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.Selectee
+    11400048: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.DigitalMoveHandler
+    11400050: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.SubmitHandler
+    11400052: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.PhysicsMover
+    11400054: grid/Map/Object Layer 1/Player/MonoBehaviour-PURR.PhysicsJumper
+    21200000: grid/Map/Object Layer 1/21/Renderer/SpriteRenderer
+    21200002: grid/Map/Object Layer 1/25/Renderer/SpriteRenderer
+    21200004: grid/Map/Object Layer 1/26/Renderer/SpriteRenderer
+    21200012: grid/Map/Object Layer 1/27/Renderer/SpriteRenderer
+    21200014: grid/Map/Object Layer 1/28/Renderer/SpriteRenderer
+    21200016: grid/Map/Object Layer 1/29/Renderer/SpriteRenderer
+    21200020: grid/Map/Object Layer 1/30/Renderer/SpriteRenderer
+    21200022: grid/Map/Object Layer 1/32/Renderer/SpriteRenderer
+    21200024: grid/Map/Object Layer 1/34/Renderer/SpriteRenderer
+    21200026: grid/Map/Object Layer 1/Blue Button/Renderer/SpriteRenderer
+    21200028: grid/Map/Object Layer 1/Player/Renderer/SpriteRenderer
     100100000: grid
     2113883504053787368: grid/Map/Tile Layer 1/TilemapCollider2D
     2569400265252428796: grid/Map/Grid
