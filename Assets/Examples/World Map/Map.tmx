@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="56" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="16">
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="56" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="30">
  <tileset firstgid="1" source="mapPack_tilesheet_2X.tsx"/>
  <layer id="12" name="Background" width="56" height="40">
   <data encoding="base64" compression="gzip">
@@ -23,7 +23,21 @@
  </layer>
  <objectgroup id="10" name="Objects">
   <object id="1" name="Zoink" type="Map Player" gid="152" x="1280" y="1536" width="128" height="128"/>
-  <object id="14" name="Level 1" type="Map Level" x="1536" y="1152" width="128" height="128"/>
+  <object id="14" name="World 1-1" type="Map Level" x="1536" y="1152" width="128" height="128"/>
+  <object id="16" name="Platformation" type="Map Level" x="2304" y="1152" width="128" height="128"/>
+  <object id="17" name="Walk with Me" type="Map Level" x="2304" y="1408" width="128" height="128"/>
+  <object id="18" name="Castle Eltsac (Boss)" type="Map Boss" x="1792" y="1664" width="128" height="128"/>
+  <object id="19" name="Side View World" type="Map World" x="1280" y="1408" width="128" height="128"/>
+  <object id="20" name="Top View World" type="Map World" x="1792" y="2944" width="128" height="128"/>
+  <object id="21" name="Capsule Catchers" type="Map Level" x="2048" y="2432" width="128" height="128"/>
+  <object id="22" name="Twin Steaks" type="Map Level" x="3072" y="2176" width="128" height="128"/>
+  <object id="23" name="Realtile Strategy" type="Map Level" x="3584" y="2688" width="128" height="128"/>
+  <object id="24" name="Another World" type="Map World" x="3584" y="2176" width="128" height="128"/>
+  <object id="25" name="Isomorph" type="Map Level" x="3840" y="1920" width="128" height="128"/>
+  <object id="26" name="Hextech Haunt" type="Map Level" x="4864" y="1920" width="128" height="128"/>
+  <object id="27" name="Bigger Brush Symphony" type="Map Level" x="5376" y="1152" width="128" height="128"/>
+  <object id="28" name="Offworlders (Boss)" type="Map Boss" x="5760" y="1920" width="128" height="128"/>
+  <object id="29" name="HiGHTOWER (Boss)" type="Map Boss" x="4096" y="2688" width="128" height="128"/>
  </objectgroup>
  <layer id="16" name="Trees and Stones" width="56" height="40">
   <data encoding="base64" compression="gzip">

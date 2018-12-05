@@ -168,7 +168,6 @@ namespace PURR.Tiled {
 						// Prefab instantiation based on object type
 						} else {
 							var instantiate = true;
-							if (!instantiate) { continue; }
 							gameObject = Instantiate(gameObject);
 							gameObject.name = objectName;
 							foreach (var component in gameObject.GetComponents<PURR.Component>()) {

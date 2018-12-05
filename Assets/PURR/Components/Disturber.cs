@@ -10,9 +10,7 @@ namespace PURR {
 
 		public void Disturb() {
 			if (Paused) { return; }
-			foreach (var collider in overlapper.OverlapBox()) {
-				collider.GetComponentInParent<Disturbee>()?.Disturb();
-			}
+			overlapper.OverlapBox<Disturbee>()?.Disturb();
 		}
 	}
 }
