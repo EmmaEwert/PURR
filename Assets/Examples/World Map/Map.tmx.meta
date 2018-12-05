@@ -227,6 +227,11 @@ ScriptedImporter:
     100444: grid/Map/Path/Map Path 43,24/Caster
     100446: grid/Map/Path/Map Path 44,24
     100448: grid/Map/Path/Map Path 44,24/Caster
+    100450: grid/Map/Objects/Zoink/Overlapper
+    100458: grid/Map/Objects/Level 1
+    100460: grid/Map/Objects/Level 1/Canvas
+    100462: grid/Map/Objects/Level 1/Canvas/Image
+    100464: grid/Map/Objects/Level 1/Canvas/Image/Text Mesh
     400000: grid/Map/Transform
     400002: grid/Map/Background/Transform
     400004: grid/Map/Ground/Transform
@@ -452,6 +457,8 @@ ScriptedImporter:
     400444: grid/Map/Path/Map Path 43,24/Caster/Transform
     400446: grid/Map/Path/Map Path 44,24/Transform
     400448: grid/Map/Path/Map Path 44,24/Caster/Transform
+    400450: grid/Map/Objects/Zoink/Overlapper/Transform
+    400452: grid/Map/Objects/Level 1/Transform
     2000000: grid/Map/Objects/Zoink/Main Camera/Camera
     5000000: grid/Map/Rigidbody2D
     6100000: grid/Map/Path/Map Path 11,28/BoxCollider2D
@@ -561,6 +568,7 @@ ScriptedImporter:
     6100208: grid/Map/Path/Map Path 42,24/BoxCollider2D
     6100210: grid/Map/Path/Map Path 43,24/BoxCollider2D
     6100212: grid/Map/Path/Map Path 44,24/BoxCollider2D
+    6100214: grid/Map/Objects/Level 1/BoxCollider2D
     6600000: grid/Map/CompositeCollider2D
     8100000: grid/Map/Objects/Zoink/Main Camera/AudioListener
     11400000: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Spriter
@@ -996,7 +1004,22 @@ ScriptedImporter:
     11400860: grid/Map/Path/Map Path 44,24/MonoBehaviour-PURR.GridPhysicsCaster
     11400862: grid/Map/Path/Map Path 44,24/MonoBehaviour-MapPath
     11400864: grid/Map/Path/Map Path 44,24/MonoBehaviour-PURR.GridBumpee
+    11400866: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Logger
+    11400868: grid/Map/Objects/Zoink/MonoBehaviour-PURR.PhysicsOverlapper
+    11400870: grid/Map/Objects/Level 1/MonoBehaviour-PURR.Disturbee
+    11400872: grid/Map/Objects/Level 1/MonoBehaviour-PURR.EventListener
+    11400878: grid/Map/Objects/Zoink/MonoBehaviour-PURR.EventListener
+    11400880: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Disturber
+    11400882: grid/Map/Objects/Level 1/Canvas/MonoBehaviour-UnityEngine.UI.CanvasScaler
+    11400884: grid/Map/Objects/Level 1/Canvas/Image/MonoBehaviour-UnityEngine.UI.Image
+    11400886: grid/Map/Objects/Level 1/Canvas/Image/Text Mesh/MonoBehaviour-TMPro.TextMeshProUGUI
     21200000: grid/Map/Objects/Zoink/Renderer/SpriteRenderer
+    22200004: grid/Map/Objects/Level 1/Canvas/Image/CanvasRenderer
+    22200006: grid/Map/Objects/Level 1/Canvas/Image/Text Mesh/CanvasRenderer
+    22300002: grid/Map/Objects/Level 1/Canvas/Canvas
+    22400006: grid/Map/Objects/Level 1/Canvas/RectTransform
+    22400008: grid/Map/Objects/Level 1/Canvas/Image/RectTransform
+    22400010: grid/Map/Objects/Level 1/Canvas/Image/Text Mesh/RectTransform
     100100000: grid
     2113883504053787368: grid/Map/Background/TilemapCollider2D
     2113883504053787370: grid/Map/Ground/TilemapCollider2D

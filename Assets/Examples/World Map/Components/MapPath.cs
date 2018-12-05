@@ -2,13 +2,15 @@
 using static UnityAsync.Await;
 using static UnityEngine.EventSystems.MoveDirection;
 using PURR;
-using UnityEngine;
-using UnityEngine.EventSystems;
 using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(GridPhysicsCaster))]
 public class MapPath : PURR.Component {
 	public float tilesPerSecond = 2;
+	public UnityEvent onDone;
 
 	private GridPhysicsCaster caster => GetComponent<GridPhysicsCaster>();
 
@@ -19,6 +21,7 @@ public class MapPath : PURR.Component {
 			var subject = selected.GetComponent<GridMover>() ?? selected.AddComponent<GridMover>();
 			await Follow(direction, subject);
 		}
+		onDone.Invoke();
 	}
 
 	private async Task Follow(MoveDirection direction, GridMover subject) {
@@ -29,7 +32,7 @@ public class MapPath : PURR.Component {
 		for (var next = Left; next <= Down; ++next) {
 			foreach (var hit in caster.BoxCast(next)) {
 				var path = hit.collider.GetComponent<MapPath>();
-				if (next == direction.Opposite() || !(path?.name != this.name)) { continue; }
+				if (!path || next == direction.Opposite() || path.name == this.name) { continue; }
 				await path.Follow(next, subject);
 				return;
 			}

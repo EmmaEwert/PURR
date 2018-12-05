@@ -157,7 +157,7 @@ namespace PURR.Tiled {
 
 						// Warn instantiation when object has type but no prefab was found
 						} else if (null == (gameObject = PrefabLoader.Load<PURR.Component>(objectType))) {
-							gameObject = new GameObject(objectName);
+							gameObject = new GameObject(objectType);
 							icon = "sv_label_6";
 							Debug.LogWarning(
 								"No prefab named \""

@@ -257,6 +257,22 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[4].m_Collider
       value: 
       objectReference: {fileID: 1577341452}
+    - target: {fileID: 22400000, guid: 45501a734b287804fae6935474ae2aa4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400874, guid: 45501a734b287804fae6935474ae2aa4, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400006, guid: 45501a734b287804fae6935474ae2aa4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400886, guid: 45501a734b287804fae6935474ae2aa4, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45501a734b287804fae6935474ae2aa4, type: 3}
 --- !u!19719996 &1577341452 stripped
