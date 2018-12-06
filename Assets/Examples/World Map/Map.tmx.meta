@@ -20,9 +20,13 @@ ScriptedImporter:
     100030: grid/Map/Path/Map Path 12,17
     100032: grid/Map/Objects/Another World/Canvas/Image/Text Mesh
     100034: grid/Map/Path/Map Path 12,18
+    100036: grid/Map/Objects/Side View World
     100038: grid/Map/Path/Map Path 12,19
+    100040: grid/Map/Objects/Side View World Friend
     100042: grid/Map/Path/Map Path 12,20
+    100044: grid/Map/Objects/33
     100046: grid/Map/Path/Map Path 12,21
+    100048: grid/Map/Objects/Side View World Friend/Renderer
     100050: grid/Map/Path/Map Path 12,22
     100052: grid/Map/Objects/Bigger Brush Symphony
     100054: grid/Map/Path/Map Path 12,23
@@ -88,7 +92,7 @@ ScriptedImporter:
     100174: grid/Map/Path/Map Path 20,21
     100176: grid/Map/Objects/Realtile Strategy/Canvas/Image/Text Mesh
     100178: grid/Map/Path/Map Path 20,22
-    100180: grid/Map/Objects/Side View World
+    100180: grid/Map/Objects/33/Renderer
     100182: grid/Map/Path/Map Path 20,23
     100184: grid/Map/Objects/Side View World/Canvas
     100186: grid/Map/Path/Map Path 20,24
@@ -136,41 +140,77 @@ ScriptedImporter:
     100270: grid/Map/Path/Map Path 29,16
     100272: grid/Map/Objects/HiGHTOWER (Boss)/Canvas/Image/Text Mesh
     100274: grid/Map/Path/Map Path 29,20
+    100276: grid/Map/Objects/34
     100278: grid/Map/Path/Map Path 29,22
+    100280: grid/Map/Objects/34/Renderer
     100282: grid/Map/Path/Map Path 30,16
+    100284: grid/Map/Objects/35
     100286: grid/Map/Path/Map Path 30,20
+    100288: grid/Map/Objects/35/Renderer
     100290: grid/Map/Path/Map Path 30,22
+    100292: grid/Map/Objects/37
     100294: grid/Map/Path/Map Path 30,23
+    100296: grid/Map/Objects/37/Renderer
     100298: grid/Map/Path/Map Path 30,25
+    100300: grid/Map/Objects/38
     100302: grid/Map/Path/Map Path 30,26
+    100304: grid/Map/Objects/38/Renderer
     100306: grid/Map/Path/Map Path 30,27
+    100308: grid/Map/Objects/44
     100310: grid/Map/Path/Map Path 30,28
+    100312: grid/Map/Objects/44/Renderer
     100314: grid/Map/Path/Map Path 30,29
+    100316: grid/Map/Objects/41
     100318: grid/Map/Path/Map Path 30,30
+    100320: grid/Map/Objects/41/Renderer
     100322: grid/Map/Path/Map Path 31,16
+    100324: grid/Map/Objects/43
     100326: grid/Map/Path/Map Path 31,20
+    100328: grid/Map/Objects/43/Renderer
     100330: grid/Map/Path/Map Path 31,30
+    100332: grid/Map/Objects/45
     100334: grid/Map/Path/Map Path 32,16
+    100336: grid/Map/Objects/45/Renderer
     100338: grid/Map/Path/Map Path 32,17
+    100340: grid/Map/Objects/46
     100342: grid/Map/Path/Map Path 32,19
+    100344: grid/Map/Objects/46/Renderer
     100346: grid/Map/Path/Map Path 32,20
+    100348: grid/Map/Objects/47
     100350: grid/Map/Path/Map Path 32,30
+    100352: grid/Map/Objects/47/Renderer
     100354: grid/Map/Path/Map Path 33,30
+    100356: grid/Map/Objects/48
     100358: grid/Map/Path/Map Path 34,26
+    100360: grid/Map/Objects/48/Renderer
     100362: grid/Map/Path/Map Path 34,27
+    100364: grid/Map/Objects/49
     100366: grid/Map/Path/Map Path 34,28
+    100368: grid/Map/Objects/49/Renderer
     100370: grid/Map/Path/Map Path 34,29
+    100372: grid/Map/Objects/50
     100374: grid/Map/Path/Map Path 34,30
+    100376: grid/Map/Objects/50/Renderer
     100378: grid/Map/Path/Map Path 35,26
+    100380: grid/Map/Objects/52
     100382: grid/Map/Path/Map Path 36,26
+    100384: grid/Map/Objects/52/Renderer
     100386: grid/Map/Path/Map Path 37,26
+    100388: grid/Map/Objects/53
     100390: grid/Map/Path/Map Path 38,25
+    100392: grid/Map/Objects/53/Renderer
     100394: grid/Map/Path/Map Path 38,27
+    100396: grid/Map/Objects/54
     100398: grid/Map/Path/Map Path 38,28
+    100400: grid/Map/Objects/54/Renderer
     100402: grid/Map/Path/Map Path 39,24
+    100404: grid/Map/Objects/56
     100406: grid/Map/Path/Map Path 39,28
+    100408: grid/Map/Objects/56/Renderer
     100410: grid/Map/Path/Map Path 40,25
+    100412: grid/Map/Objects/57
     100414: grid/Map/Path/Map Path 40,26
+    100416: grid/Map/Objects/57/Renderer
     100418: grid/Map/Path/Map Path 40,27
     100422: grid/Map/Path/Map Path 40,29
     100426: grid/Map/Path/Map Path 40,30
@@ -192,6 +232,7 @@ ScriptedImporter:
     400018: grid/Map/Objects/Zoink/Renderer/Transform
     400020: grid/Map/Objects/Zoink/Transform
     400022: grid/Map/Path/Map Path 11,28/Transform
+    400024: grid/Map/Objects/Side View World/Transform
     400026: grid/Map/Path/Map Path 12,16/Transform
     400028: grid/Map/Objects/Bigger Brush Symphony/Transform
     400030: grid/Map/Path/Map Path 12,17/Transform
@@ -209,7 +250,7 @@ ScriptedImporter:
     400054: grid/Map/Path/Map Path 12,23/Transform
     400056: grid/Map/Objects/Realtile Strategy/Transform
     400058: grid/Map/Path/Map Path 12,24/Transform
-    400060: grid/Map/Objects/Side View World/Transform
+    400060: grid/Map/Objects/33/Transform
     400062: grid/Map/Path/Map Path 12,25/Transform
     400064: grid/Map/Objects/Top View World/Transform
     400066: grid/Map/Path/Map Path 12,26/Transform
@@ -221,44 +262,83 @@ ScriptedImporter:
     400078: grid/Map/Path/Map Path 13,16/Transform
     400080: grid/Map/Objects/HiGHTOWER (Boss)/Transform
     400082: grid/Map/Path/Map Path 13,26/Transform
+    400084: grid/Map/Objects/Side View World Friend/Transform
     400086: grid/Map/Path/Map Path 13,30/Transform
+    400088: grid/Map/Objects/33/Renderer/Transform
     400090: grid/Map/Path/Map Path 14,30/Transform
+    400092: grid/Map/Objects/Side View World Friend/Renderer/Transform
     400094: grid/Map/Path/Map Path 15,16/Transform
+    400096: grid/Map/Objects/34/Transform
     400098: grid/Map/Path/Map Path 15,26/Transform
+    400100: grid/Map/Objects/34/Renderer/Transform
     400102: grid/Map/Path/Map Path 15,30/Transform
+    400104: grid/Map/Objects/35/Transform
     400106: grid/Map/Path/Map Path 16,16/Transform
+    400108: grid/Map/Objects/35/Renderer/Transform
     400110: grid/Map/Path/Map Path 16,17/Transform
+    400112: grid/Map/Objects/37/Transform
     400114: grid/Map/Path/Map Path 16,18/Transform
+    400116: grid/Map/Objects/37/Renderer/Transform
     400118: grid/Map/Path/Map Path 16,19/Transform
+    400120: grid/Map/Objects/38/Transform
     400122: grid/Map/Path/Map Path 16,21/Transform
+    400124: grid/Map/Objects/38/Renderer/Transform
     400126: grid/Map/Path/Map Path 16,22/Transform
+    400128: grid/Map/Objects/44/Transform
     400130: grid/Map/Path/Map Path 16,26/Transform
+    400132: grid/Map/Objects/44/Renderer/Transform
     400134: grid/Map/Path/Map Path 16,27/Transform
+    400136: grid/Map/Objects/41/Transform
     400138: grid/Map/Path/Map Path 16,29/Transform
+    400140: grid/Map/Objects/41/Renderer/Transform
     400142: grid/Map/Path/Map Path 17,22/Transform
+    400144: grid/Map/Objects/43/Transform
     400146: grid/Map/Path/Map Path 17,28/Transform
+    400148: grid/Map/Objects/43/Renderer/Transform
     400150: grid/Map/Path/Map Path 17,30/Transform
+    400152: grid/Map/Objects/45/Transform
     400154: grid/Map/Path/Map Path 18,22/Transform
+    400156: grid/Map/Objects/45/Renderer/Transform
     400158: grid/Map/Path/Map Path 18,23/Transform
+    400160: grid/Map/Objects/46/Transform
     400162: grid/Map/Path/Map Path 18,24/Transform
+    400164: grid/Map/Objects/46/Renderer/Transform
     400166: grid/Map/Path/Map Path 19,24/Transform
+    400168: grid/Map/Objects/47/Transform
     400170: grid/Map/Path/Map Path 20,20/Transform
+    400172: grid/Map/Objects/47/Renderer/Transform
     400174: grid/Map/Path/Map Path 20,21/Transform
+    400176: grid/Map/Objects/48/Transform
     400178: grid/Map/Path/Map Path 20,22/Transform
+    400180: grid/Map/Objects/48/Renderer/Transform
     400182: grid/Map/Path/Map Path 20,23/Transform
+    400184: grid/Map/Objects/49/Transform
     400186: grid/Map/Path/Map Path 20,24/Transform
+    400188: grid/Map/Objects/49/Renderer/Transform
     400190: grid/Map/Path/Map Path 21,20/Transform
+    400192: grid/Map/Objects/50/Transform
     400194: grid/Map/Path/Map Path 22,21/Transform
+    400196: grid/Map/Objects/50/Renderer/Transform
     400198: grid/Map/Path/Map Path 22,22/Transform
+    400200: grid/Map/Objects/52/Transform
     400202: grid/Map/Path/Map Path 22,23/Transform
+    400204: grid/Map/Objects/52/Renderer/Transform
     400206: grid/Map/Path/Map Path 22,24/Transform
+    400208: grid/Map/Objects/53/Transform
     400210: grid/Map/Path/Map Path 23,20/Transform
+    400212: grid/Map/Objects/53/Renderer/Transform
     400214: grid/Map/Path/Map Path 23,24/Transform
+    400216: grid/Map/Objects/54/Transform
     400218: grid/Map/Path/Map Path 24,18/Transform
+    400220: grid/Map/Objects/54/Renderer/Transform
     400222: grid/Map/Path/Map Path 24,19/Transform
+    400224: grid/Map/Objects/56/Transform
     400226: grid/Map/Path/Map Path 24,21/Transform
+    400228: grid/Map/Objects/56/Renderer/Transform
     400230: grid/Map/Path/Map Path 24,23/Transform
+    400232: grid/Map/Objects/57/Transform
     400234: grid/Map/Path/Map Path 24,24/Transform
+    400236: grid/Map/Objects/57/Renderer/Transform
     400238: grid/Map/Path/Map Path 25,18/Transform
     400242: grid/Map/Path/Map Path 26,16/Transform
     400246: grid/Map/Path/Map Path 26,17/Transform
@@ -459,7 +539,9 @@ ScriptedImporter:
     11400034: grid/Map/Path/Map Path 12,18/MonoBehaviour-PURR.TileObject
     11400036: grid/Map/Objects/Another World/Canvas/Image/Text Mesh/MonoBehaviour-TMPro.TextMeshProUGUI
     11400038: grid/Map/Path/Map Path 12,18/MonoBehaviour-MapPath
+    11400040: grid/Map/Objects/Side View World Friend/MonoBehaviour-PURR.Spriter
     11400042: grid/Map/Path/Map Path 12,19/MonoBehaviour-PURR.TileObject
+    11400044: grid/Map/Objects/Side View World Friend/MonoBehaviour-PURR.Bobber
     11400046: grid/Map/Path/Map Path 12,19/MonoBehaviour-MapPath
     11400050: grid/Map/Path/Map Path 12,20/MonoBehaviour-PURR.TileObject
     11400054: grid/Map/Path/Map Path 12,20/MonoBehaviour-MapPath
@@ -766,6 +848,26 @@ ScriptedImporter:
     11400876: grid/Map/Objects/Zoink/MonoBehaviour-MapPathFollower
     11400880: grid/Map/Objects/Zoink/MonoBehaviour-PURR.Disturber
     21200000: grid/Map/Objects/Zoink/Renderer/SpriteRenderer
+    21200002: grid/Map/Objects/Side View World Friend/Renderer/SpriteRenderer
+    21200004: grid/Map/Objects/33/Renderer/SpriteRenderer
+    21200006: grid/Map/Objects/34/Renderer/SpriteRenderer
+    21200008: grid/Map/Objects/35/Renderer/SpriteRenderer
+    21200010: grid/Map/Objects/37/Renderer/SpriteRenderer
+    21200012: grid/Map/Objects/38/Renderer/SpriteRenderer
+    21200014: grid/Map/Objects/44/Renderer/SpriteRenderer
+    21200016: grid/Map/Objects/41/Renderer/SpriteRenderer
+    21200018: grid/Map/Objects/43/Renderer/SpriteRenderer
+    21200020: grid/Map/Objects/45/Renderer/SpriteRenderer
+    21200022: grid/Map/Objects/46/Renderer/SpriteRenderer
+    21200024: grid/Map/Objects/47/Renderer/SpriteRenderer
+    21200026: grid/Map/Objects/48/Renderer/SpriteRenderer
+    21200028: grid/Map/Objects/49/Renderer/SpriteRenderer
+    21200030: grid/Map/Objects/50/Renderer/SpriteRenderer
+    21200032: grid/Map/Objects/52/Renderer/SpriteRenderer
+    21200034: grid/Map/Objects/53/Renderer/SpriteRenderer
+    21200036: grid/Map/Objects/54/Renderer/SpriteRenderer
+    21200038: grid/Map/Objects/56/Renderer/SpriteRenderer
+    21200040: grid/Map/Objects/57/Renderer/SpriteRenderer
     22200000: grid/Map/Objects/Another World/Canvas/Image/CanvasRenderer
     22200002: grid/Map/Objects/Another World/Canvas/Image/Text Mesh/CanvasRenderer
     22200004: grid/Map/Objects/HiGHTOWER (Boss)/Canvas/Image/CanvasRenderer

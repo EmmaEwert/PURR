@@ -11,7 +11,7 @@ namespace PURR {
 		public virtual void OnImportObject(Object obj) {}
 
 		private bool busy;
-		protected bool Busy {
+		public bool Busy {
 			get => busy;
 			set {
 				foreach (var component in GetComponentsInChildren<Component>()) {

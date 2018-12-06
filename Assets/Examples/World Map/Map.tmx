@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="56" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="30">
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="56" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="58">
  <tileset firstgid="1" source="mapPack_tilesheet_2X.tsx"/>
  <layer id="12" name="Background" width="56" height="40">
   <data encoding="base64" compression="gzip">
@@ -38,6 +38,26 @@
   <object id="27" name="Bigger Brush Symphony" type="Map Level" x="5376" y="1152" width="128" height="128"/>
   <object id="28" name="Offworlders (Boss)" type="Map Boss" x="5760" y="1920" width="128" height="128"/>
   <object id="29" name="HiGHTOWER (Boss)" type="Map Boss" x="4096" y="2688" width="128" height="128"/>
+  <object id="30" name="Side View World Friend" type="Map Friend" gid="169" x="1600" y="1600" width="128" height="128"/>
+  <object id="33" gid="170" x="1344" y="1408" width="128" height="128"/>
+  <object id="34" gid="169" x="1472" y="1216" width="128" height="128"/>
+  <object id="35" gid="170" x="2368" y="1280" width="128" height="128"/>
+  <object id="37" gid="186" x="2368" y="1536" width="128" height="128"/>
+  <object id="38" gid="153" x="1792" y="1856" width="128" height="128"/>
+  <object id="41" gid="153" x="1856" y="1344" width="128" height="128"/>
+  <object id="43" gid="186" x="1728" y="2112" width="128" height="128"/>
+  <object id="44" gid="153" x="1984" y="2560" width="128" height="128"/>
+  <object id="45" gid="186" x="3136" y="2304" width="128" height="128"/>
+  <object id="46" gid="169" x="3584" y="2752" width="128" height="128"/>
+  <object id="47" gid="170" x="4160" y="2816" width="128" height="128"/>
+  <object id="48" gid="170" x="2752" y="2752" width="128" height="128"/>
+  <object id="49" gid="169" x="2368" y="2496" width="128" height="128"/>
+  <object id="50" gid="186" x="3840" y="3008" width="128" height="128"/>
+  <object id="52" gid="153" x="2688" y="2304" width="128" height="128"/>
+  <object id="53" gid="186" x="3904" y="2048" width="128" height="128"/>
+  <object id="54" gid="169" x="5760" y="2112" width="128" height="128"/>
+  <object id="56" gid="153" x="4864" y="2112" width="128" height="128"/>
+  <object id="57" gid="170" x="5440" y="1280" width="128" height="128"/>
  </objectgroup>
  <layer id="16" name="Trees and Stones" width="56" height="40">
   <data encoding="base64" compression="gzip">

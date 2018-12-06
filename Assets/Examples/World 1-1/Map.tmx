@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="192" height="32" tilewidth="21" tileheight="21" infinite="0" nextlayerid="18" nextobjectid="91">
+ <tileset firstgid="1" source="spritesheet.tsx"/>
+ <objectgroup id="16" name="Object Layer 0">
+  <object id="75" gid="197" x="2919" y="567" width="21" height="21"/>
+  <object id="77" gid="227" x="2919" y="588" width="21" height="21"/>
+  <object id="78" gid="227" x="2919" y="609" width="21" height="21"/>
+  <object id="79" gid="227" x="2919" y="630" width="21" height="21"/>
+  <object id="80" gid="227" x="2919" y="651" width="21" height="21"/>
+ </objectgroup>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="8" gid="228" x="31.5" y="630" width="21" height="21"/>
+  <object id="9" gid="198" x="31.5" y="609" width="21" height="21"/>
+  <object id="10" gid="197" x="52.5" y="630" width="21" height="21"/>
+  <object id="11" gid="227" x="52.5" y="651" width="21" height="21"/>
+  <object id="12" gid="197" x="21" y="630" width="21" height="21"/>
+  <object id="13" gid="227" x="21" y="651" width="21" height="21"/>
+  <object id="15" gid="197" x="73.5" y="630" width="21" height="21"/>
+  <object id="16" gid="227" x="73.5" y="651" width="21" height="21"/>
+  <object id="33" gid="197" x="997.5" y="609" width="21" height="21"/>
+  <object id="34" gid="197" x="1018.5" y="609" width="21" height="21"/>
+  <object id="35" gid="197" x="1050" y="609" width="21" height="21"/>
+  <object id="37" gid="197" x="1081.5" y="609" width="21" height="21"/>
+  <object id="40" gid="227" x="997.5" y="630" width="21" height="21"/>
+  <object id="42" gid="227" x="1018.5" y="630" width="21" height="21"/>
+  <object id="49" gid="227" x="1050" y="630" width="21" height="21"/>
+  <object id="50" gid="227" x="1081.5" y="630" width="21" height="21"/>
+  <object id="68" gid="228" x="2908.5" y="609" width="21" height="21"/>
+  <object id="69" gid="198" x="2908.5" y="588" width="21" height="21"/>
+  <object id="70" gid="227" x="2908.5" y="630" width="21" height="21"/>
+  <object id="71" gid="227" x="2908.5" y="651" width="21" height="21"/>
+  <object id="82" gid="228" x="2929.5" y="588" width="21" height="21"/>
+  <object id="83" gid="198" x="2929.5" y="567" width="21" height="21"/>
+  <object id="84" gid="227" x="2929.5" y="609" width="21" height="21"/>
+  <object id="85" gid="227" x="2929.5" y="630" width="21" height="21"/>
+  <object id="86" gid="227" x="2929.5" y="651" width="21" height="21"/>
+ </objectgroup>
+ <layer id="13" name="Tile Layer 1" width="192" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3ZS07DMBSF4ahhDWyDCQtgWwiYsQfEOgqEQaW27IBXB5E6YAW8OibY9FpyjeO8aGnq/5POAFpKbI4dKyQJAAAAAAAAAAAAAAAAAAAAAAD98jVYBohSKgEixP6PmNF/RC2l/4gX+z9iVtB/ROJJ9fxZZWb1/af7PP9BBG5U1w9V12+t/hf0v9S5pKt7NccPkkfutf/G1/+9dBl0V7ZWhmq+r1T21Txf96T/5qzgZtaT6/fR/c8Gq/1HPb6zY126/yNZA33pv+5KLn3Re2YW6M5csu3MmOh/ubIzT5e9w/S/7v7/F2eursx4c+l/vgPdYf9vz3d2fBksU2Uo3R/1bP/PrDWQefpftU7de0LTe0TVs/mx5E5Sxbf/q7P/kU7DS4tOl2cH5vwfOv/oLh2UpIk2P+Nj+m+ffZrsnb4zUeU5KZU5FaFnkxMnY8/rLt/+766xunvaLgp17kPNyafKIjB3ZV7Ve94k79b7L1RO15jjFuN0x+tmUWO88yTcf/N99zr0XLr9Lzy/T3d9akV/PUlW18A0+b0m6vwNY/h/8Emy3t41yeUas4lxnwU+335t2+bdXNumrmmbfAMAzebdAGAAAA==
+  </data>
+ </layer>
+ <layer id="14" name="Tile Layer 2" width="192" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3WQQqDMBAAwGB/2N/0abUP0R76jFqPRkhAPAhK2xCcgSWnwG52FxICAAAAAAAAAAAAAAAAAAAAAAAApbxSAHxL14TQp3g2pbOB/7rHmb9eQmjj+aho/pd729vh0+sO9r/W+Z/zblPk/OezphrWtnro/78tz8Pe/tc8/2OqeVzsQk01rOWaaq6hlHd8syHGZ+fb5XtH7pa0zHuotIa1oz3k926lE+B0JsK91WgAYAAA
+  </data>
+ </layer>
+ <layer id="15" name="Tile Layer 3" width="192" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3TsQmAQBAEwOf7r0ctRA0sQy3ADwyeRyNBT5iBjS7ZYC8lAAAAAAAAAAAAAAAAAAAAAAAAAADgT8ac0lRlzl83gvd0Ze9LSX9mqPbf/kbE/7jqGLEnMa1lJ1uVPd/f2nsEVx0j9gR44gCzfb5LAGAAAA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 2">
+  <object id="6" gid="228" x="31.5" y="651" width="21" height="21"/>
+  <object id="7" gid="198" x="31.5" y="630" width="21" height="21"/>
+  <object id="14" gid="197" x="63" y="651" width="21" height="21"/>
+  <object id="18" gid="198" x="84" y="630" width="21" height="21"/>
+  <object id="19" gid="228" x="84" y="651" width="21" height="21"/>
+  <object id="31" gid="197" x="2940" y="651" width="21" height="21"/>
+  <object id="32" gid="254" x="2982" y="651" width="21" height="21"/>
+  <object id="52" gid="197" x="987" y="630" width="21" height="21"/>
+  <object id="53" gid="228" x="1008" y="630" width="21" height="21"/>
+  <object id="54" gid="198" x="1008" y="609" width="21" height="21"/>
+  <object id="55" gid="228" x="1029" y="630" width="21" height="21"/>
+  <object id="56" gid="198" x="1029" y="609" width="21" height="21"/>
+  <object id="58" gid="197" x="1071" y="630" width="21" height="21"/>
+  <object id="59" gid="228" x="1092" y="630" width="21" height="21"/>
+  <object id="60" gid="198" x="1092" y="609" width="21" height="21"/>
+  <object id="61" gid="197" x="2898" y="609" width="21" height="21"/>
+  <object id="62" gid="227" x="2898" y="630" width="21" height="21"/>
+  <object id="63" gid="227" x="2898" y="651" width="21" height="21"/>
+ </objectgroup>
+ <objectgroup id="17" name="Object Layer 3">
+  <object id="90" name="Zoink" type="L1 Player" gid="20" x="42" y="651" width="21" height="21"/>
+ </objectgroup>
+</map>

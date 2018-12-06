@@ -12,6 +12,7 @@ namespace PURR {
 #pragma warning restore CS0108
 
 		public void JumpRelative() {
+			if (Busy) { return; }
 			rigidbody.AddRelativeForce(float2(0, 1) * force, ForceMode2D.Impulse);
 		}
 	}

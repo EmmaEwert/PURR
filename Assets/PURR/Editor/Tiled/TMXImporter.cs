@@ -126,8 +126,8 @@ namespace PURR.Tiled {
 						var objectName   = (string)obj.Attribute("name");
 						var objectType   = (string)obj.Attribute("type");
 						var objectGID    =   (int?)obj.Attribute("gid") ?? 0;
-						var objectX      =    (int)obj.Attribute("x") / tileheight;
-						var objectY      =   -(int)obj.Attribute("y") / tileheight + height;
+						var objectX      =  (float)obj.Attribute("x") / tileheight;
+						var objectY      = -(float)obj.Attribute("y") / tileheight + height;
 						var objectWidth  =   (int?)obj.Attribute("width") ?? 0;
 						var objectHeight =   (int?)obj.Attribute("height") ?? 0;
 
@@ -183,8 +183,8 @@ namespace PURR.Tiled {
 						if (sprite) {
 							gameObject.transform.localPosition = float3(objectX, objectY, 0);
 							if (!gameObject.GetComponent<PURR.Component>()) {
-								var renderer = new GameObject("renderer").AddComponent<SpriteRenderer>();
-								renderer.transform.parent = gameObject.transform;
+								var renderer = new GameObject("Renderer").AddComponent<SpriteRenderer>();
+								renderer.transform.SetParent(gameObject.transform, worldPositionStays: false);
 								renderer.sprite = sprite;
 							}
 						} else {
