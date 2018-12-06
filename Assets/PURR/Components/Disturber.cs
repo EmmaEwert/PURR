@@ -8,7 +8,7 @@ namespace PURR {
 		private PhysicsOverlapper overlapper => GetComponent<PhysicsOverlapper>();
 
 		public void Disturb() {
-			if (Paused) { return; }
+			if (Busy) { return; }
 			overlapper.OverlapBox<Disturbee>()?.Disturb();
 		}
 	}

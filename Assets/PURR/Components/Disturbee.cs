@@ -8,7 +8,7 @@ namespace PURR {
 		public UnityEvent onDisturbed;
 
 		public void Disturb() {
-			if (Paused) { return; }
+			if (Busy) { return; }
 			onDisturbed.Invoke();
 		}
 	}

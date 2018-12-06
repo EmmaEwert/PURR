@@ -16,15 +16,15 @@ namespace PURR {
 		public async void MoveAsync(MoveDirection direction) => await Move(direction);
 
 		public async Task Move(MoveDirection direction) {
-			if (Paused) { return; }
-			Paused = true;
+			if (Busy) { return; }
+			Busy = true;
 			for (; step < 1; await NextUpdate()) {
 				if (this == null) { return; }
 				transform.localPosition =
 					float3(position, transform.localPosition.z) + lerp(0, direction.float3(), step);
 				step += tilesPerSecond * Time.deltaTime;
 			}
-			Paused = false;
+			Busy = false;
 			transform.localPosition = float3(position += direction.int2(), transform.localPosition.z);
 			step -= 1;
 		}

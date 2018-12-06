@@ -10,12 +10,12 @@ namespace PURR {
 		///<summary>Callback after prefab is instantiated during tilemap import.</summary>
 		public virtual void OnImportObject(Object obj) {}
 
-		private bool paused;
-		protected bool Paused {
-			get => paused;
+		private bool busy;
+		protected bool Busy {
+			get => busy;
 			set {
 				foreach (var component in GetComponentsInChildren<Component>()) {
-					component.paused = value;
+					component.busy = value;
 				}
 			}
 		}

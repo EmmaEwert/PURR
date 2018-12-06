@@ -14,7 +14,7 @@ public class MapPathFollower : PURR.Component {
 	private PhysicsOverlapper overlapper => GetComponent<PhysicsOverlapper>();
 
 	public async void Follow(MoveDirection direction) {
-		if (!overlapper.OverlapBox<MapPath>(direction)) { return; }
+		if (Busy || !overlapper.OverlapBox<MapPath>(direction)) { return; }
 		onFollow.Invoke();
 		using (new SelectedGameObject()) {
 			// Step onto the first path tile.

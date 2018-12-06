@@ -6,7 +6,7 @@ namespace PURR {
 		public DirectionEvent onBumped;
 
 		public void Bump(MoveDirection direction) {
-			if (Paused) { return; }
+			if (Busy) { return; }
 			onBumped.Invoke(direction);
 		}
 	}

@@ -8,7 +8,7 @@ namespace PURR {
 		private PhysicsOverlapper overlapper => GetComponent<PhysicsOverlapper>();
 
 		public void Bump(MoveDirection direction) {
-			if (Paused) { return; }
+			if (Busy) { return; }
 			overlapper.OverlapBox<GridBumpee>(direction)?.Bump(direction);
 		}
 	}
