@@ -48,6 +48,7 @@ namespace PURR.Tiled {
 			// Grid
 			var grid = new GameObject(Path.GetFileNameWithoutExtension(assetPath), typeof(Grid));
 			grid.AddComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+			grid.isStatic = true;
 			ctx.AddObjectToAsset("grid", grid);
 			ctx.SetMainObject(grid);
 			var collider = grid.AddComponent<CompositeCollider2D>();
@@ -67,6 +68,7 @@ namespace PURR.Tiled {
 				var layerObject = new GameObject(name);
 				layerObject.transform.parent = grid.transform;
 				layerObject.transform.localPosition = float3(offsetx, offsety, --depth);
+				layerObject.isStatic = true;
 
 				// Tile layer
 				if (layer.Name == "layer") {
