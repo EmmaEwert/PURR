@@ -47,24 +47,7 @@ Toolkit enabling approachable workflow for making games in Unity:
 
 ## Components
 
-Put these on a named prefab to automatically import from a `Type`d object from Tiled.
-
-All importable components must inherit from `PURR.Component`, which provides gameobject-wide pause
-functionality, and declares `OnTileImport` and `OnObjectImport` callbacks.
-
-Component            | Description                                      | Requires
----------------------|--------------------------------------------------|---------
-`Bobber`             | Bobs transform. Used by textbox arrow.
-`DigitalMoveHandler` | Runs delegates when receiving directional input while selected.
-`GridBumpee`         | Runs delegates when bumped into.
-`GridBumper`         | Notifies a `GridBumpee` to call its delegates when bumping into its child collider. | `GridPhysicsCaster`
-`GridPhysicsCaster`  | Supplies a `BoxCast` method for checking neighbor collisions.
-`GridCollider`       | Allows `GridMover` to collide with things.       | `GridMover`, `GridPhysicsCaster`
-`GridMover`          | Steps one unit length in one of the four cardinal directions.
-`Selectee`           | Forces the attached gameobject on `Start` to become the selected object in the EventSystem.
-`Spriter`            | Assigns sprites on import.<br>*Also aligns to pixel grid during gameplay.*
-`Teletyper`          | Assigns a text to the static `Teletype` object.<br>*Also activates the textbox.*
-`TileCollidee`       | Flags a tile with the same `Type` as the prefab's `name` as a grid collider.
+Described on the [wiki](https://github.com/EmmaEwert/PURR/wiki/Components)
 
 
 ## Text
