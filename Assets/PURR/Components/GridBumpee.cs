@@ -1,9 +1,7 @@
 namespace PURR {
-	using UnityEngine;
 	using UnityEngine.EventSystems;
 
 	///<summary>Runs delegates when bumped into.</summary>
-	[AddComponentMenu("# PURR/Grid/Actors/Bumpee")]
 	public class GridBumpee : Component {
 		public DirectionEvent onBumped;
 

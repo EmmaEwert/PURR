@@ -3,7 +3,6 @@ using PURR;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
-using System.Linq;
 
 [RequireComponent(typeof(GridMover))]
 [RequireComponent(typeof(PhysicsOverlapper))]
@@ -19,18 +18,18 @@ public class MapPathFollower : PURR.Component {
 		onFollow.Invoke();
 		using (new SelectedGameObject()) {
 			// Step onto the first path tile.
-			await mover.Step(direction);
+			await mover.Move(direction);
 
 			// Step onto the next path tile, if any.
 			for (var next = Left; next <= Down; ++next) {
 				if (next != direction.Opposite() && overlapper.OverlapBox<MapPath>(next)) {
-					await mover.Step(direction = next);
+					await mover.Move(direction = next);
 					next = Left - 1;
 				}
 			}
 
 			// Step off the last path tile, if no more were found.
-			await mover.Step(direction);
+			await mover.Move(direction);
 		}
 		onDone.Invoke();
 	}

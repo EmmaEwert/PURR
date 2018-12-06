@@ -2,7 +2,7 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.Events;
 
-	[AddComponentMenu("# PURR/Importee")]
+	///<summary>Runs delegates when importing.</summary>
 	public class Importee : Component {
 		public StringEvent onImportName;
 

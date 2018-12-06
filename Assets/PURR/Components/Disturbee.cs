@@ -3,8 +3,7 @@ namespace PURR {
 	using UnityEngine.Events;
 	using UnityEngine.EventSystems;
 
-	///<summary>Runs delegates when bumped into.</summary>
-	[AddComponentMenu("# PURR/Grid/Actors/Disturbee")]
+	///<summary>Runs delegates when disturbed.</summary>
 	public class Disturbee : Component {
 		public UnityEvent onDisturbed;
 

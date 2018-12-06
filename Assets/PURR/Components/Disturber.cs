@@ -2,8 +2,7 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.EventSystems;
 
-	///<sumamry>Notifies a `GridBumpee` to call its delegates when bumping into its child collider.</summary>
-	[AddComponentMenu("# PURR/Grid/Actors/Disturber")]
+	///<sumamry>Notifies a `Disturbee` to call its delegates when disturbing its child collider.</summary>
 	[RequireComponent(typeof(PhysicsOverlapper))]
 	public class Disturber : Component {
 		private PhysicsOverlapper overlapper => GetComponent<PhysicsOverlapper>();

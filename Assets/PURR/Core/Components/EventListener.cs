@@ -1,8 +1,10 @@
 namespace PURR {
 	using static UnityAsync.Await;
 	using UnityEngine.Events;
+	using UnityEngine;
 
-	public class EventListener : Component {
+	///<summary>Runs delegates when a specific event is invoked.</summary>
+	public class EventListener : MonoBehaviour {
 		public Event @event;
 		public UnityEvent onEvent;
 

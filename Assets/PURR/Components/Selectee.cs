@@ -2,12 +2,11 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.EventSystems;
 
-	/// <summary>
-	/// Forces the attached gameobject on `Start` to become the selected object in the EventSystem.
-	[AddComponentMenu("# PURR/Selectee")]
+	/// <summary>Sets this `GameObject` as the first selected in the EventSystem, if any.</summary>
 	public class Selectee : Component {
-		private void Start() {
-			EventSystem.current.SetSelectedGameObject(gameObject);
+		private void Awake() {
+			if (!EventSystem.current) { return; }
+			EventSystem.current.firstSelectedGameObject = gameObject;
 		}
 	}
 }

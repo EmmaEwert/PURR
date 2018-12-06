@@ -3,11 +3,9 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.Tilemaps;
 
-	///<summary>Assigns sprites on import. Also aligns to pixel grid during gameplay.</summary>
-	[AddComponentMenu("# PURR/Spriter")]
-	[DisallowMultipleComponent]
+	///<summary>Assigns sprite on import.</summary>
 	public class Spriter : Component {
-#pragma warning disable CS0108
+#pragma warning disable CS0108 // hides inherited member
 		private SpriteRenderer renderer => GetComponentInChildren<SpriteRenderer>();
 #pragma warning restore CS0108
 
@@ -18,11 +16,6 @@ namespace PURR {
 				renderer.transform.SetParent(transform, worldPositionStays: false);
 				renderer.maskInteraction = SpriteMaskInteraction.VisibleOutsideMask;
 			}
-		}
-
-		private void LateUpdate() {
-			var ppu = renderer?.sprite?.pixelsPerUnit ?? 1;
-			transform.position = round(transform.position * ppu) / ppu;
 		}
 	}
 }

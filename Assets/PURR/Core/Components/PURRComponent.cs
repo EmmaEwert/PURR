@@ -1,7 +1,8 @@
 namespace PURR {
 	using UnityEngine;
 
-	///<summary>Base class that PURR-based importable components must inherit from.</sumamry>
+	///<summary>Base class that PURR-based importable components must inherit from.</summary>
+	[HelpURL("https://github.com/EmmaEwert/PURR/wiki/Components")]
 	public abstract class Component : MonoBehaviour {
 		///<summary>Callback after tile is instantiated during tileset import.</summary>
 		public virtual void OnImportTile(Tile tile) {}

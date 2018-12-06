@@ -4,17 +4,14 @@
 	using UnityEngine.EventSystems;
 
 	///<summary>Allows `GridMover` to collide with things.</summary>
-	[AddComponentMenu("# PURR/Grid/Actors/Collider")]
-	[RequireComponent(typeof(GridMover))]
-	[RequireComponent(typeof(GridPhysicsCaster))]
+	[RequireComponent(typeof(GridMover), typeof(PhysicsOverlapper))]
 	public class GridCollider : Component {
-		private GridPhysicsCaster caster => GetComponent<GridPhysicsCaster>();
+		private PhysicsOverlapper overlapper => GetComponent<PhysicsOverlapper>();
 		private GridMover mover => GetComponent<GridMover>();
 
 		public async void TryStepAsync(MoveDirection direction) {
-			if (caster.BoxCast(direction).Length == 0) {
-				await mover.Step(direction);
-			}
+			if (overlapper.OverlapBox(direction)) { return; }
+			await mover.Move(direction);
 		}
 	}
 }

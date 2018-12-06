@@ -4,7 +4,6 @@
 	using UnityEngine;
 
 	///<summary>Bobs transform. Used by textbox arrow.</summary>
-	[AddComponentMenu("# PURR/Text/Bobber")]
 	public class Bobber : Component {
 		float3 position;
 		private void OnEnable() => position = transform.position;

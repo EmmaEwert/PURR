@@ -6,21 +6,16 @@ namespace PURR {
 	using UnityEngine;
 	using UnityEngine.EventSystems;
 
-	///<summary>Steps one unit length in one of the four cardinal directions.</summary>
-	[AddComponentMenu("# PURR/Grid/Actors/Mover")]
+	///<summary>Moves one unit length in one of the four cardinal directions.</summary>
 	public class GridMover : Component {
 		public float tilesPerSecond = 2;
-		public int2 Position {
-			get => position;
-			set => transform.position = float3(position = value, transform.position.z);
-		}
 
 		private int2 position;
 		private float step;
 
-		public async void StepAsync(MoveDirection direction) => await Step(direction);
+		public async void MoveAsync(MoveDirection direction) => await Move(direction);
 
-		public async Task Step(MoveDirection direction) {
+		public async Task Move(MoveDirection direction) {
 			if (Paused) { return; }
 			Paused = true;
 			for (; step < 1; await NextUpdate()) {
